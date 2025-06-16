@@ -16,8 +16,8 @@
             <h3 class="sub-title animate__animated animate__fadeInUp">Bienvenido a Vuelve Peludo</h3>  
             <h2 class="main-title animate__animated animate__fadeInUp">Tu aliado en la búsqueda de mascotas perdidas</h2> 
             <div class="btn-grp">
-                <a href="./lost-pet.php" class="btn-primary hero-btn-1 animate__animated animate__fadeInUp">I Lost Pet</a>
-                <a href="./found-pet.php" class="btn-primary hero-btn-2 animate__animated animate__fadeInUp">I Found Pet</a>
+                <a href="./lost-pet.php" class="btn-primary hero-btn-1 animate__animated animate__fadeInUp">Reportar peludo</a>
+                <a href="./found-pet.php" class="btn-primary hero-btn-2 animate__animated animate__fadeInUp">Encontre un peludo</a>
             </div> 
             <img src="./images/hero-bg.png" alt="pet-image" class="pet-image animate__animated animate__fadeInUp">
             <h1 class="bg-text animate__animated animate__fadeInUp">Pets</h1>
@@ -33,7 +33,7 @@
                 <h2 class="main-title">El corazón detrás de Vuelve Peludo</h2> 
                 <p class="abt-content">Vuelve Peludo es una plataforma creada con el corazón, pensada para ayudar a quienes han perdido una mascota o han encontrado una sin hogar. 
 Aquí, la comunidad se une para que cada peludo regrese a su familia.</p>
-                <a href="about-us.php" class="btn-primary">Read More</a>
+                <a href="about-us.php" class="btn-primary">Leer más</a>
             </div>
         </div>
 
