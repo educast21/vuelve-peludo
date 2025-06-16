@@ -42,11 +42,11 @@
         <div class="menu menu-close">
             <i class="ri-close-fill hide-pc" id="button-close"></i>
             <ul id="navMenus" class="w-nav-link">
-                <li><a class="<?php echo $current_page == 'index.php' ? 'active':NULL ?>" href="index.php">Home</a></li>
-                <li><a class="<?php echo $current_page == 'about-us.php' ? 'active':NULL ?>" href="about-us.php">About Us</a></li>
-                <li><a class="<?php echo $current_page == 'lost-pet.php' ? 'active':NULL ?>" href="lost-pet.php">I lost a Pet</a></li>
-                <li><a class="<?php echo $current_page == 'found-pet.php' ? 'active':NULL ?>" href="found-pet.php">I Found a Pet</a></li>
-                <li><a class="<?php echo $current_page == 'contact-us.php' ? 'active':NULL ?>" href="contact-us.php">Contact Us</a></li>
+                <li><a class="<?php echo $current_page == 'index.php' ? 'active':NULL ?>" href="index.php">Inicio</a></li>
+                <li><a class="<?php echo $current_page == 'about-us.php' ? 'active':NULL ?>" href="about-us.php">Acerca de nosotros</a></li>
+                <li><a class="<?php echo $current_page == 'lost-pet.php' ? 'active':NULL ?>" href="lost-pet.php">Reportar peludo</a></li>
+                <li><a class="<?php echo $current_page == 'found-pet.php' ? 'active':NULL ?>" href="found-pet.php">Encontre un peludo</a></li>
+                <li><a class="<?php echo $current_page == 'contact-us.php' ? 'active':NULL ?>" href="contact-us.php">Contactanos</a></li>
                 <!-- <li><a href="./admin">Admin</a></li> -->
             </ul>
 
