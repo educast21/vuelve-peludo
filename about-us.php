@@ -50,17 +50,17 @@
 
         <div id="testimonial">
             <div class="uper-testi">
-                <h1 class="main-title">Testimonials</h1>
-                <p class="sub-title">Real experiences from our community of pet lovers.</p>
+                <h1 class="main-title">Testimonios</h1>
+                <p class="sub-title">Historias reales de personas que recuperaron a sus mascotas gracias a Vuelve Peludo..</p>
             </div>
             <div class="lower-testi">
                 <div class="owl-carousel">
                         <div class="item">
                             <div class="testi-content">
-                                <p class="text-justify">"PawFinder was a godsend when Rocky went missing. Mumbai is a big city, and I was terrified. The support and encouragement I received from the PawFinder community were heartwarming. Within a day of posting a 'Lost Pet' listing, Rocky was found! PawFinder, you're a true friend to pet owners."</p>
+                                <p class="text-justify">"Mi perrita Luna se perdió en el parque y no sabíamos qué hacer. Subimos su foto a Vuelve Peludo y, en menos de 24 horas, una persona la reconoció y nos contactó. ¡Estamos eternamente agradecidos!"</p>
                                 <div>
-                                    <h3>Ananya Gupta.</h3>
-                                    <h3>Mumbai, Maharashtra</h3>
+                                    <h3>Maria López.</h3>
+                                    <h3>Ciudad de México.</h3>
                                 </div>
                                 <img src="./paw-40.svg" alt="paw-bg" class="testi-bg">
                             </div>
@@ -68,10 +68,10 @@
 
                         <div class="item">
                             <div class="testi-content">
-                                <p class="text-justify">"PawFinder changed the game for us! Whiskey had been missing, and I was anxious. Posting on PawFinder not only connected me with other pet lovers but also provided valuable tips. The 'Lost Pet' community supported me, and now, with Whiskey back home, I'm immensely grateful to PawFinder!"</p>
+                                <p class="text-justify">Encontré un perrito perdido cerca de mi casa y no sabía cómo ayudar. Gracias a Vuelve Peludo pude subir su información y su familia lo encontró en cuestión de horas."</p>
                                 <div>
-                                    <h3>Rajesh Sharma.</h3>
-                                    <h3>Delhi, NCR</h3>
+                                    <h3>Javier Torres.</h3>
+                                    <h3>Monterrey, Nuevo León.</h3>
                                 <img src="./paw-40.svg" alt="paw-bg" class="testi-bg">
                                     
                                 </div>
@@ -80,10 +80,10 @@
 
                         <div class="item">
                             <div class="testi-content">
-                                <p class="text-justify">"PawFinder was a savior when Golu went missing. In the vast city of Delhi, I was filled with worry. The 'Found Pet' section on PawFinder quickly connected me with Golu's owner. Now, Golu is back with his family, and I owe it all to PawFinder. Thank you!"</p>
+                                <p class="text-justify">"Nuestro gato Max desapareció por varios días. Pensábamos que no volvería, pero gracias a una publicación en Vuelve Peludo, una vecina lo reconoció y nos avisó. ¡Fue increíble!"</p>
                                 <div>
-                                    <h3>Priya Malik.</h3>
-                                    <h3>Bengaluru, Karnataka</h3>
+                                    <h3>Fernanda Ruiz.</h3>
+                                    <h3>Ecatepec, Estado de México.</h3>
                                 <img src="./paw-40.svg" alt="paw-bg" class="testi-bg">
 
                                 </div>
