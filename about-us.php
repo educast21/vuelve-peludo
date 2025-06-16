@@ -20,7 +20,7 @@
         <div id="about-page">
             <div class="left-abt">
             <h1 class="bg-text">Pets</h1>
-                <img src="./images/abt-section.png" alt="about" class="abt-img">
+                <img src="./images/img10.png" alt="about" class="abt-img">
             </div>
             <div class="right-abt">
                 <h3 class="sub-title">A Little About PawFinder</h3>  
@@ -44,7 +44,7 @@
                 PawFinder is not just a project; it's a heartwarming journey that rekindles the bonds of love and companionship between pets and their families. Our measure of success is the joy in every reunion, the wagging tails, and the rekindling of those cherished moments that define the special relationship between pets and their owners. Join us in this mission, and let's make more tails wag and hearts smile together.</p>
             </div>
             <div class="left-abt">
-                <img src="./images/mission_img.jpg" alt="mission" style="margin-bottom:65px">
+                <img src="./images/img12.png" alt="mission" style="margin-bottom:65px">
             </div>
         </div>
 
