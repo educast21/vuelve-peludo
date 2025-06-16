@@ -11,8 +11,9 @@
 
         <div class="foot-uper">
             <div class="col-1">
-                <h3 class="footer-title">About Us</h3>
-                <p>PawFinder, a compassionate community, reunites lost pets with families. Founded by pet lovers, it's a heartwarming platform for pet reunions.</p>
+                <h3 class="footer-title">Acerca de nosotros</h3>
+                <p>Somos un equipo comprometido con el bienestar animal.
+Queremos que Vuelve Peludo sea un puente entre quienes pierden a su mascota y quienes están dispuestos a ayudar.</p>
                 <div class="socials">
                     <a href="facebook"><i class="ri-facebook-fill"></i></a>
                     <a href="instagram"><i class="ri-instagram-fill"></i></a>
@@ -21,25 +22,25 @@
                 </div>
             </div>
             <div class="col-2">
-                <h3 class="footer-title">Quick Links</h3>
+                <h3 class="footer-title">Enlaces rápidos</h3>
                 <div class="footer-menu">
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Community Guidelines</a></li>
-                    <li><a href="#">Pet Safety Tips</a></li>
+                    <li><a href="#">Politica de privacidad</a></li>
+                    <li><a href="#">Terminos de servicio</a></li>
+                    <li><a href="#">Pautas de la comunidad</a></li>
+                    <li><a href="#">Consejos de seguridad para mascotas</a></li>
                 </div>
             </div>
             <div class="col-3">
-                <h3 class="footer-title">Contact Information</h3>
+                <h3 class="footer-title">Informacion de contacto</h3>
                 <div class="icon-list">
-                    <li><a href="tel:+918657231186"><i class="ri-phone-fill"></i> +91 8657231186</a></li>
-                    <li><a href="mailto:kanani.manan5@gmail.com"><i class="ri-mail-fill"></i> contact@pawfinder.in</a></li>
-                    <li><a href="#"><i class="ri-map-pin-fill"></i> PawFinder Office,456 Pet Paradise Road, Kandivali West, Mumbai, Maharashtra-400067, India</a></li>
+                    <li><a href="tel:+918657231186"><i class="ri-phone-fill"></i> +55 1234567890</a></li>
+                    <li><a href="mailto:kanani.manan5@gmail.com"><i class="ri-mail-fill"></i> contact@vuelvepeludo.com</a></li>
+                    <li><a href="#"><i class="ri-map-pin-fill"></i> Vuelve Peludo Oficina, Colima 161, Cuauhtémoc, Ciudad de México</a></li>
                 </div>
             </div>
         </div>
         <div class="foot-lower">
-            <p>Copyright © 2023 <span><a href="./index.php" style="color:#202020; text-decoration:none">PawFinder.</a> </span>  All rights reserved.</p>
+            <p>Copyright © 2025 <span><a href="./index.php" style="color:#202020; text-decoration:none">Vuelve Peludo.</a> </span>  Todos los derechos reservados.</p>
         </div>
 
     </div>
