@@ -19,14 +19,14 @@
                 <a href="./lost-pet.php" class="btn-primary hero-btn-1 animate__animated animate__fadeInUp">I Lost Pet</a>
                 <a href="./found-pet.php" class="btn-primary hero-btn-2 animate__animated animate__fadeInUp">I Found Pet</a>
             </div> 
-            <img src="./images/hero-bg.png" alt="pet-image" class="pet-image animate__animated animate__fadeInUp">
+            <img src="./images/img5.png" alt="pet-image" class="pet-image animate__animated animate__fadeInUp">
             <h1 class="bg-text animate__animated animate__fadeInUp">Pets</h1>
         </div>
 
         <div id="about">
             <div class="left-abt">
             <h1 class="bg-text">Love</h1>
-                <img src="./images/abt-section.png" alt="about" class="abt-img">
+                <img src="./images/img3.png" alt="about" class="abt-img">
             </div>
             <div class="right-abt">
                 <h3 class="sub-title">Conoce más sobre Vuelve Peludo</h3>  

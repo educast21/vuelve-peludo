@@ -6,7 +6,10 @@
     --Secondary-color:#202020;
     --text-dark:#202020;
     --text-light:#f4f4f4;
-    --bg-color:#f2e7e7;
+    --bg-color:#F5FAE2;
+
+    --hero-bg: #F5FAE2;
+    --about-bg: #C6D792;
 }
 
 *{
@@ -559,6 +562,7 @@ nav{
     justify-content: end;
     position: relative;
     padding:  0 0 5%     0;
+    background-color: var(--hero-bg);
 }
 #hero .pet-image{
     width: 100%;
