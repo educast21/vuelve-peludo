@@ -19,7 +19,7 @@
                 <a href="./lost-pet.php" class="btn-primary hero-btn-1 animate__animated animate__fadeInUp">I Lost Pet</a>
                 <a href="./found-pet.php" class="btn-primary hero-btn-2 animate__animated animate__fadeInUp">I Found Pet</a>
             </div> 
-            <img src="./images/img5.png" alt="pet-image" class="pet-image animate__animated animate__fadeInUp">
+            <img src="./images/hero-bg.png" alt="pet-image" class="pet-image animate__animated animate__fadeInUp">
             <h1 class="bg-text animate__animated animate__fadeInUp">Pets</h1>
         </div>
 
