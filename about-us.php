@@ -13,8 +13,8 @@
         <?php include 'header.php'; ?>
 
         <div id="bread">
-            <h2 class="main-title">About Us</h2> 
-            <p>Home / About Us</p>  
+            <h2 class="main-title">Acerca de nosotros</h2> 
+            <p>Inicio / Acerca de nosotros</p>  
         </div>
 
         <div id="about-page">
@@ -23,25 +23,33 @@
                 <img src="./images/img10.png" alt="about" class="abt-img">
             </div>
             <div class="right-abt">
-                <h3 class="sub-title">A Little About PawFinder</h3>  
-                <h2 class="main-title">The Heart Behind PawFinder</h2> 
-                <p class="abt-content">Welcome to PawFinder, a heartwarming initiative led by Manan Kanani. PawFinder's core mission is to reunite every lost pet with its loving family, ensuring that pets find their way back to their rightful homes and into the warm embrace of their owners. Our growing community of pet lovers is dedicated to this heartwarming mission, rekindling the bonds of love and companionship that define our pets as cherished family members. <br><br>
-                At PawFinder, we believe in the power of compassion, community, and pet safety. Our platform offers a place where pet owners can connect, share their stories, and find support during those challenging times when a pet is lost. It's more than just a website; it's a haven for pet lovers, a source of hope, and a catalyst for joyful reunions. <br><br>
-                Join us on this journey, where wagging tails and joyful hearts are our measure of success. PawFinder is more than just a project; it's a testament to the enduring love between pets and their owners, where every reunion is a celebration of family and happiness.</p>
+                <h3 class="sub-title">Un poco más acerca de Vuelve Peludo</h3>  
+                <h2 class="main-title">El corazón detras de Vuelve Peludo</h2> 
+                <p class="abt-content">
+    Bienvenido a Vuelve Peludo, una iniciativa solidaria dedicada a ayudar a personas a reencontrarse con sus queridas mascotas. Nuestra misión principal es que cada animal extraviado regrese a casa, a los brazos de quienes lo aman, restaurando así ese vínculo especial que los convierte en parte de la familia. <br><br>
+    
+    En Vuelve Peludo creemos en el poder de la empatía, la comunidad y la seguridad animal. Nuestra plataforma brinda un espacio donde los dueños pueden reportar mascotas perdidas, compartir historias, recibir apoyo y colaborar para lograr encuentros felices. No es solo una página web: es un punto de esperanza, un refugio virtual donde el amor por los animales nos une. <br><br>
+    
+    Únete a nosotros en este viaje lleno de ladridos, maullidos y corazones contentos. Vuelve Peludo es mucho más que un proyecto: es un homenaje al amor incondicional entre humanos y mascotas, donde cada reencuentro es una fiesta de alegría y unión.
+</p>
+
                 <div class="btn-grp">
-                    <a href="./lost-pet.php" class="btn-primary hero-btn-1">I Lost Pet</a>
-                    <a href="./found-pet.php" class="btn-primary hero-btn-2">I Found Pet</a>
+                    <a href="./lost-pet.php" class="btn-primary hero-btn-1">Reportar Peludo</a>
+                    <a href="./found-pet.php" class="btn-primary hero-btn-2">Encontre un peludo</a>
             </div>
 
             </div>
         </div>
         <div id="about">  
             <div class="right-abt">
-                <h3 class="sub-title">Discover the Core of PawFinder</h3>  
-                <h2 class="main-title">Our Heartfelt Mission</h2> 
-                <p class="abt-content">At PawFinder, our unwavering mission is to reunite every lost pet with their loving family. We believe that pets are more than just animals; they are cherished family members, and their safety and happiness matter deeply. Our platform is a haven for pet lovers, a place where compassion and community come together. We are committed to creating happiness by ensuring that pets find their way back to where they belong – in the loving embrace of their owners.
-                <br><br>
-                PawFinder is not just a project; it's a heartwarming journey that rekindles the bonds of love and companionship between pets and their families. Our measure of success is the joy in every reunion, the wagging tails, and the rekindling of those cherished moments that define the special relationship between pets and their owners. Join us in this mission, and let's make more tails wag and hearts smile together.</p>
+                <h3 class="sub-title">Descubre la esencia de Vuelve Peludo</h3>  
+                <h2 class="main-title">Nuestra misión</h2> 
+                <p class="abt-content">
+    En Vuelve Peludo, nuestra misión constante es reunir a cada mascota perdida con su familia. Creemos que los animales no son solo mascotas, sino miembros amados del hogar, y su bienestar y seguridad nos importan profundamente. Nuestra plataforma es un refugio para los amantes de los animales, un espacio donde la empatía y la comunidad se unen con un propósito común. Estamos comprometidos a crear felicidad ayudando a que cada mascota vuelva al lugar al que pertenece: los brazos de quienes la aman.
+    <br><br>
+    Vuelve Peludo no es solo un proyecto; es un camino lleno de esperanza que fortalece los lazos de amor y compañía entre los animales y sus familias. Nuestro verdadero éxito se mide en cada reencuentro, en las colas que se mueven de alegría y en esos momentos únicos que reafirman la conexión especial entre humanos y mascotas. Únete a esta misión, y hagamos que más colas se muevan y más corazones sonrían juntos.
+</p>
+
             </div>
             <div class="left-abt">
                 <img src="./images/img12.png" alt="mission" style="margin-bottom:65px">
@@ -97,47 +105,47 @@
 
         <div id="faq-container">
             <div class="uper-faq">
-                <h1 class="main-title">Frequently Asked Questions</h1>
-                <p class="sub-title">Your Questions, Our Answers.</p>
+                <h1 class="main-title">Preguntas frecuentes</h1>
+                <p class="sub-title">Tus preguntas, nuestras respuestas.</p>
             </div>
             <div class="lowerfaq">
                 <div class="lower-left-faq">
                     <div class="faq">
-                        <button class="accordion">1. What is PawFinder?</button>
+                        <button class="accordion">1. ¿Qué es Vuelve Peludo?</button>
                         <div class="panel">
-                            <p>PawFinder is a community-driven platform dedicated to reuniting lost pets with their families.</p>
+                            <p>Vuelve Peludo es una plataforma creada con el corazón, pensada para ayudar a quienes han perdido una mascota o han encontrado una sin hogar. </p>
                         </div>
                     </div>
                     <div class="faq">
-                        <button class="accordion">2. How does PawFinder work?</button>
+                        <button class="accordion">2. ¿Cómo funciona Vuelve Peludo?</button>
                         <div class="panel">
-                            <p>If you've lost a pet, you can create a 'Lost Pet' listing with details about your pet. If you've found a pet, you can create a 'Found Pet' listing. PawFinder's community then helps connect lost pets with their owners.</p>
+                            <p>Si has perdido a tu mascota, puedes crear una publicación en la sección de “Mascota Perdida” con todos los detalles sobre ella. Si por el contrario, has encontrado una mascota, puedes crear una publicación en la sección de “Mascota Encontrada”. La comunidad de Vuelve Peludo se encarga de ayudarte a conectar a las mascotas con sus dueños para lograr un reencuentro feliz.</p>
                         </div>
                     </div>
                     <div class="faq">
-                        <button class="accordion">3. Is PawFinder free to use?</button>
+                        <button class="accordion">3. ¿Vuelve peludo es gratis para usar?</button>
                         <div class="panel">
-                            <p>Yes, PawFinder is free to use. Our primary goal is to bring pets back home, and we believe in the power of community support and compassion.</p>
+                            <p>Vuelve Peludo es completamente gratuito. Nuestro principal objetivo es ayudar a que las mascotas regresen a casa, y creemos firmemente en el poder del apoyo comunitario y la compasión.</p>
                         </div>
                     </div>
                 </div>
                 <div class="lower-right-faq">
                     <div class="faq">
-                        <button class="accordion">4. How can I post a lost or found pet listing?</button>
+                        <button class="accordion">4. ¿Cómo puedo publicar un reporte de mascota perdida o encontrada?</button>
                         <div class="panel">
-                            <p>To post a listing, simply click on 'Lost a Pet' or 'Found a Pet' on our website. Fill out the necessary details, including a description and a photo if possible. Your listing will then be visible to our community.</p>
+                            <p> Para publicar un reporte, simplemente haz clic en "Perdí una mascota" o "Encontré una mascota" en nuestro sitio web. Completa los datos necesarios, incluyendo una descripción y una foto si es posible. Tu reporte será visible para toda nuestra comunidad.</p>
                         </div>
                     </div>
                     <div class="faq">
-                        <button class="accordion">5. How can I support PawFinder's mission?</button>
+                        <button class="accordion">5. ¿Cómo puedo apoyar la misión de Vuelve Peludo?</button>
                         <div class="panel">
-                            <p>You can support us by being an active member of our community, sharing your stories, helping reunite lost pets, and promoting responsible pet ownership. Every action counts!</p>
+                            <p><p>Puedes apoyarnos siendo un miembro activo de nuestra comunidad, compartiendo tus historias, ayudando a reunir mascotas perdidas con sus dueños y promoviendo la tenencia responsable. ¡Cada acción cuenta!</p></p>
                         </div>
                     </div>
                     <div class="faq">
-                        <button class="accordion">6. Is my personal information safe on PawFinder?</button>
+                        <button class="accordion">6. ¿Mi información personal esta segura en Vuelve Peludo?</button>
                         <div class="panel">
-                            <p>We take user privacy seriously. Personal information is kept secure and is only shared with those who need it to facilitate the reunion process.</p>
+                            <p>Nos tomamos muy en serio la privacidad del usuario. Su información personal se mantiene segura y solo se comparte con quienes la necesitan para facilitar el proceso de reencuentro.</p>
                         </div>
                     </div>
                 </div>
