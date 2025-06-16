@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Vuelve Peludo - Tu aliado en la búsqueda de mascotas perdidas </title>
     <link rel="manifest" href="manifest.json" />
-    <link rel="icon" href="./images/logos/icon.png" type="image/png">
+    <link rel="icon" href="./images/logos/logovp.png" type="image/png">
 </head>
 <body onload="myFunction()">
 <div class="load" id="loader"><hr/><hr/><hr/><hr/></div>

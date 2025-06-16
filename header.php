@@ -37,7 +37,7 @@
 <body>
 <nav >
         <div class="left-nav">
-            <a href="index.php" class="logo"><img src="images/logos/PawFinder Logo_black_transparent.png" alt=""></a>
+            <a href="index.php" class="logo"><img src="images/logos/logovp.png" alt=""></a>
         </div>
         <div class="menu menu-close">
             <i class="ri-close-fill hide-pc" id="button-close"></i>

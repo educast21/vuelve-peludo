@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Lost Pets | PawFinder</title>
     <link rel="stylesheet" href="../style/style.css">
-    <link rel="icon" href="./images/logos/icon.png" type="image/png">
+    <link rel="icon" href="./images/logos/logovp.png" type="image/png">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script>
         $(document).ready(function() {
