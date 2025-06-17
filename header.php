@@ -52,17 +52,12 @@
 
             <div class="menu-bottom-mobile hide-pc">
                 <!-- <p>Donate Us</p> -->
-                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_N4LecIZmHvesul" async> </script> </form>
                 
             </div>
         </div>
 
         <div class="right-nav">
-            <!-- <a href="#" id="pop-open" class="btn-primary ">Donate</a> -->
-            <form class="hide-mob"><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_N4LecIZmHvesul" async> </script> </form>
-
-            <!-- <i class="fa fa-bars " "></i> -->
-            <i class="ri-menu-2-line hide-pc" id="button-open"></i>
+            
         </div>
     </nav>
 
