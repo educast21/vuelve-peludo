@@ -13,25 +13,25 @@
         <?php include 'header.php'; ?>
 
         <div id="bread">
-            <h2 class="main-title">Contact Us</h2> 
-            <p>Home / Contact Us</p>  
+            <h2 class="main-title">Contactanos</h2> 
+            <p>Inicio / Contactanos</p>  
         </div>
 
         
         <div id="contact-container">
         <div class="contact-info">
-            <h2>Contact Us</h2>
-            <p>If you have any questions or feedback, please reach out to us. We're here to assist you.</p>
-            <p>Email: contact@pawfinder.com</p>
-            <p>Phone: +1 123-456-7890</p>
+            <h2>Contactanos</h2>
+            <p>Si tiene alguna pregunta o comentario, contáctenos. Estamos aquí para ayudarle.</p>
+            <p>Email: contact@vuelvepeludo.com</p>
+            <p>Phone: +55 1234567890</p>
         </div>
         <div class="contact-form">
-            <h3>Send a Message</h3>
+            <h3>Envia un mensaje</h3>
             <form>
-                <input type="text" placeholder="Your Name" id="name">
-                <input type="email" placeholder="Your Email" id="email">
-                <textarea placeholder="Your Message" id="message"></textarea>
-                <button type="submit" class="btn-primary">Send</button>
+                <input type="text" placeholder="Tu nombre" id="name">
+                <input type="email" placeholder="Tu Email" id="email">
+                <textarea placeholder="Tu mensaje" id="message"></textarea>
+                <button type="submit" class="btn-primary">Enviar</button>
             </form>
         </div>
     </div>
