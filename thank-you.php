@@ -11,7 +11,7 @@ if (!isset($_SESSION['form_submitted'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You | PawFinder</title>
+    <title>Gracias | Vuelve Peludo</title>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="icon" href="./images/logos/icon.png" type="image/png">
 </head>
@@ -21,11 +21,11 @@ if (!isset($_SESSION['form_submitted'])) {
         <?php include 'header.php'; ?>
 
         <div id="bread">
-            <h2 class="main-title">Thank You</h2> 
-            <p>Home / Thank You</p>  
+            <h2 class="main-title">Gracias</h2> 
+            <p>Inicio / Gracias</p>  
         </div>
 
-        <h1>Congratulations! By filling out the form, you've taken a meaningful step towards helping a lost pet find its way back home. </h1>
+        <h1>Felicitaciones! Con tu ayuda ayudarás a una mascota a encontar su camino a casa </h1>
 
         <div class="long"></div>
         <?php include 'footer.php'; ?>

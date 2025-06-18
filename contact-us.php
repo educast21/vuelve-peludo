@@ -13,14 +13,14 @@
         <?php include 'header.php'; ?>
 
         <div id="bread">
-            <h2 class="main-title">Contactanos</h2> 
-            <p>Inicio / Contactanos</p>  
+            <h2 class="main-title">Contáctanos</h2> 
+            <p>Inicio / Contáctanos</p>  
         </div>
 
         
         <div id="contact-container">
         <div class="contact-info">
-            <h2>Contactanos</h2>
+            <h2>Contáctanos</h2>
             <p>Si tiene alguna pregunta o comentario, contáctenos. Estamos aquí para ayudarle.</p>
             <p>Email: contact@vuelvepeludo.com</p>
             <p>Phone: +55 1234567890</p>

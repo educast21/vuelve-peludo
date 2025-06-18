@@ -46,7 +46,7 @@
                                 echo '<p class="card-category">'. $row['pet_type'] . '</p>';
                                 echo '<h2 class="card-title">' . $row['pet_name'] . '</h2>';
                                 echo '<p class="card-desc">' . $limitedDescription . '</p>';
-                                echo '<p class="card-detail">Date Found: ' . $row['found_date'] . '</p>';
+                                echo '<p class="card-detail">Fecha Extravío: ' . $row['found_date'] . '</p>';
                                 echo '</div>';
                                 echo '</div>';
                                 echo '</a>';

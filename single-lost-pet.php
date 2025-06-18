@@ -52,17 +52,17 @@
                     echo '<h4 class="single-category">' . $row['pet_type'] . '</h4>';
                     echo '<h1 class="single-title">' . $row['pet_name'] . '</h1>';
                     echo '<p class="single-desc">' . $row['pet_description'] . '</p>';
-                    echo '<a href="#" class="btn-primary"> Request Contact Details</a>';
+                    echo '<a href="#" class="btn-primary"> Solicitar información de Contacto</a>';
                     echo '<table class="styled-table">';
                     echo '<tbody>';
 
                         echo '<tr>';
-                        echo '<td>Breed:</td>';
+                        echo '<td>Raza:</td>';
                         echo '<td>'. $row['pet_breed'] .'</td>';
                         echo '</tr>';
 
                         echo '<tr>';
-                        echo '<td>Size:</td>';
+                        echo '<td>Tamaño:</td>';
                         echo '<td>'. $row['pet_size'] .'</td>';
                         echo '</tr>';
 
@@ -72,17 +72,17 @@
                         echo '</tr>';
 
                         echo '<tr>';
-                        echo '<td>Date Found:</td>';
+                        echo '<td>Fecha Extravío:</td>';
                         echo '<td>'. $row['found_date'] .'</td>';
                         echo '</tr>';
 
                         echo '<tr>';
-                        echo '<td>Time Found:</td>';
+                        echo '<td>Hora de Extravío:</td>';
                         echo '<td>'. $row['found_time'] .'</td>';
                         echo '</tr>';
 
                         echo '<tr>';
-                        echo '<td>Time Place:</td>';
+                        echo '<td>Lugar de Extravío:</td>';
                         echo '<td>'. $row['found_address'] .'</td>';
                         echo '</tr>';
                     echo '</tbody>';
@@ -94,7 +94,7 @@
         ?>
 
     <div id="lost-pet" >
-        <h1 class="single-title" style="text-align:center; margin-bottom:20px">Other Lost Pets</h1>
+        <h1 class="single-title" style="text-align:center; margin-bottom:20px">Otros peludos extraviados</h1>
             <div class="d-flex mob-flex-column">
                 <?php
                     include("connection.php");
@@ -123,7 +123,7 @@
                                 echo '<p class="card-category">'. $row['pet_type'] . '</p>';
                                 echo '<h2 class="card-title">' . $row['pet_name'] . '</h2>';
                                 echo '<p class="card-desc">' . $limitedDescription . '</p>';
-                                echo '<p class="card-detail">Date Found: ' . $row['found_date'] . '</p>';
+                                echo '<p class="card-detail">Fecha Extravío: ' . $row['found_date'] . '</p>';
                                 echo '</div>';
                                 echo '</div>';
                                 echo '</a>';
@@ -139,7 +139,7 @@
                     
                 ?>
                 </div>
-                <a href="all-lost-pet.php" class="btn-primary" style="text-align:center"> See All Lost Pets</a>
+                <a href="all-lost-pet.php" class="btn-primary" style="text-align:center"> Ver todos los peludos extraviados</a>
         <?php include 'footer.php'; ?>
     </div>
 

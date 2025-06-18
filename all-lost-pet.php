@@ -60,7 +60,7 @@
         <div id="lost-pet" class="">
             <div id="search-form" class="">
                 <form>
-                    <input type="text" class="search-input" name="search" id="search" placeholder="Search by name, type, color,etc...">
+                    <input type="text" class="search-input" name="search" id="search" placeholder="Busca por nombre, raza, color, etc...">
                     <i class="ri-search-line search-icon"></i>
                 </form>
             </div>

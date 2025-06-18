@@ -46,7 +46,7 @@
                 <li><a class="<?php echo $current_page == 'about-us.php' ? 'active':NULL ?>" href="about-us.php">Acerca de nosotros</a></li>
                 <li><a class="<?php echo $current_page == 'lost-pet.php' ? 'active':NULL ?>" href="lost-pet.php">Reportar peludo</a></li>
                 <li><a class="<?php echo $current_page == 'found-pet.php' ? 'active':NULL ?>" href="found-pet.php">Encontre un peludo</a></li>
-                <li><a class="<?php echo $current_page == 'contact-us.php' ? 'active':NULL ?>" href="contact-us.php">Contactanos</a></li>
+                <li><a class="<?php echo $current_page == 'contact-us.php' ? 'active':NULL ?>" href="contact-us.php">Contáctanos</a></li>
                 <!-- <li><a href="./admin">Admin</a></li> -->
             </ul>
 
