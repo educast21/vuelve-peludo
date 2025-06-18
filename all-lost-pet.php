@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Lost Pets | PawFinder</title>
+    <title>Macotas perdidas | Vuelve Peludo</title>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="icon" href="./images/logos/logovp.png" type="image/png">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
@@ -50,8 +50,8 @@
         <?php include 'header.php'; ?>
 
         <div id="bread">
-            <h2 class="main-title">All Lost Pets</h2> 
-            <p>Home / All Lost Pets</p>  
+            <h2 class="main-title">Mascotas perdidas</h2> 
+            <p>Inicio / Mascotas perdidas</p>  
         </div>
 
         
