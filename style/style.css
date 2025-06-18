@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Varela+Round&display=swap');
 
 :root{
-    --Primary-color:#FF914D;
-    --Primary-hover:#db7536;
+    --Primary-color:#5A3B1E;
+    --Primary-hover:#F3A45B;
     --Secondary-color:#202020;
     --text-dark:#202020;
     --text-light:#f4f4f4;
@@ -619,7 +619,7 @@ nav{
     text-transform: uppercase;
     position: absolute;
     bottom: 220px;
-    background: -webkit-linear-gradient(#ffffff, #f2e7e7);
+    background: -webkit-linear-gradient(#ffe7d0, #F3A45B);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -689,7 +689,7 @@ nav{
     text-transform: uppercase;
     position: absolute;
     top: 10px;
-    background: -webkit-linear-gradient(#f2e7e7, #ffffff);
+    background: -webkit-linear-gradient(#5A3B1E, #bc9876);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -743,7 +743,7 @@ nav{
     text-transform: uppercase;
     position: absolute;
     top: 10px;
-    background: -webkit-linear-gradient(#f2e7e7, #ffffff);
+    background: -webkit-linear-gradient(#5A3B1E, #bc9876);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
