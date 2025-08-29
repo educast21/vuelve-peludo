@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,14 +22,15 @@ Queremos que Vuelve Peludo sea un puente entre quienes pierden a su mascota y qu
                 </div>
             </div>
             <div class="col-2">
-                <h3 class="footer-title">Enlaces rápidos</h3>
-                <div class="footer-menu">
-                    <li><a href="#">Politica de privacidad</a></li>
-                    <li><a href="#">Terminos de servicio</a></li>
-                    <li><a href="#">Pautas de la comunidad</a></li>
-                    <li><a href="#">Consejos de seguridad para mascotas</a></li>
-                </div>
-            </div>
+    <h3 class="footer-title">Enlaces rápidos</h3>
+    <ul class="footer-menu">
+        <li><a href="all-found-pet.php">Ver peludos encontrados</a></li>
+        <li><a href="all-lost-pet.php">Ver peludos desaparecidos</a></li>
+        <li><a href="contact-us.php">Contacto</a></li>
+        <li><a href="tips.php">Consejos de seguridad para mascotas</a></li>
+    </ul>
+</div>
+
             <div class="col-3">
                 <h3 class="footer-title">Informacion de contacto</h3>
                 <div class="icon-list">

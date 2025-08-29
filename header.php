@@ -6,8 +6,9 @@
         
         $current_page = PageName();
 ?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,21 +18,6 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
-    
-
-    <!-- A2HS -->
-
-    <link rel="manifest" href="manifest.json">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="Manan Kanani">
-    <meta name="apple-mobile-web-app-title" content="Manan Kanani">
-    <meta name="theme-color" content="#202020">
-    <meta name="msapplication-navbutton-color" content="#202020">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="msapplication-starturl" content="/index.html">
-    <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="images/favicons/favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     
 </head>
 <body>
@@ -46,6 +32,7 @@
                 <li><a class="<?php echo $current_page == 'about-us.php' ? 'active':NULL ?>" href="about-us.php">Acerca de nosotros</a></li>
                 <li><a class="<?php echo $current_page == 'lost-pet.php' ? 'active':NULL ?>" href="lost-pet.php">Reportar peludo</a></li>
                 <li><a class="<?php echo $current_page == 'found-pet.php' ? 'active':NULL ?>" href="found-pet.php">Encontre un peludo</a></li>
+                <li><a class="<?php echo $current_page == 'tips.php' ? 'active':NULL ?>" href="tips.php">Consejos</a></li>
                 <li><a class="<?php echo $current_page == 'contact-us.php' ? 'active':NULL ?>" href="contact-us.php">Contáctanos</a></li>
                 <!-- <li><a href="./admin">Admin</a></li> -->
             </ul>

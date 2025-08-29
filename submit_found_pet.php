@@ -6,62 +6,74 @@ if (!$connection) {
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Iniciar sesión
+    session_start();
 
-    // Handle contact details
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $tel = $_POST['tel'];
-    $address = $_POST['add'];
+    // Contacto
+    $name = trim($_POST['name']);
+    $email = trim($_POST['email']);
+    $tel = trim($_POST['tel']);
+    $address = trim($_POST['add']);
 
-    // Handle pet details
-    $petType = $_POST['petType'];
-    $petBreed = $_POST['petBreed'];
-    $size = $_POST['size'];
-    $petName = $_POST['petname'];
-    $color = $_POST['color'];
-    $desc = $_POST['desc'];
+    // Mascota
+    $petType = trim($_POST['petType']);
+    $petBreed = trim($_POST['petBreed']);
+    $size = trim($_POST['size']);
+    $petName = empty(trim($_POST['petname'])) ? 'Desconocido' : trim($_POST['petname']);
+    $color = trim($_POST['color']);
+    $desc = trim($_POST['desc']);
 
-    // Handle found details
+    // Hallazgo
     $foundDate = $_POST['founddate'];
     $foundTime = $_POST['foundtime'];
-    $foundLocation = $_POST['found-add'];
+    $foundLocation = $_POST['found_add']; // corregido el nombre del campo
 
-    // Handle image uploads
+    // Imagen
     $imageUrls = [];
+    $uploadDir = 'image_uploads/';
+    $allowedTypes = ['image/jpeg', 'image/png', 'image/webp', 'image/gif'];
 
     if (isset($_FILES['images']['name'])) {
-        $uploadDir = 'image_uploads/'; 
-
         foreach ($_FILES['images']['tmp_name'] as $key => $tmp_name) {
-            if ($_FILES['images']['name'][$key]) {
-                $file_name = $_FILES['images']['name'][$key];
-                $file_tmp = $_FILES['images']['tmp_name'][$key];
-                $image_url = $uploadDir . uniqid() . "_" . $file_name;
-                move_uploaded_file($file_tmp, $image_url);
-                $imageUrls[] = str_replace($uploadDir, '', $image_url); // Remove the prefix
+            $file_name = $_FILES['images']['name'][$key];
+            $file_tmp = $_FILES['images']['tmp_name'][$key];
+
+            if ($file_name && in_array(mime_content_type($file_tmp), $allowedTypes)) {
+                $new_name = uniqid() . "_" . basename($file_name);
+                $dest_path = $uploadDir . $new_name;
+
+                if (move_uploaded_file($file_tmp, $dest_path)) {
+                    $imageUrls[] = $new_name; // solo se guarda el nombre del archivo
+                }
             }
         }
     }
-    // Store the data and image URLs in the database
-    $imageUrlsString = implode(',', $imageUrls); // Convert the array to a comma-separated string
 
-    $sql = "INSERT INTO found_request (name, email, phno, address, pet_type, pet_breed, pet_size, pet_name, pet_color,pet_description, found_date, found_time, found_address, found_images_url) VALUES ('$name', '$email', '$tel', '$address', '$petType', '$petBreed', '$size', '$petName', '$color', '$desc', '$foundDate', '$foundTime', '$foundLocation', '$imageUrlsString')";
+    $imageUrlsString = implode(',', $imageUrls);
 
-    if (mysqli_query($connection, $sql)) {
-        // Set a session variable to indicate the form has been submitted
-        session_start();
-        $_SESSION['form_submitted'] = true;
-    
-        // Redirect to the "Thank You" page
-        header("Location: thank-you.php");
-        exit;
+    // Consulta segura con prepared statement
+    $stmt = $connection->prepare("
+        INSERT INTO found_request 
+        (name, email, phno, address, pet_type, pet_breed, pet_size, pet_name, pet_color, pet_description, found_date, found_time, found_address, found_images_url)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ");
+
+    if ($stmt) {
+        $stmt->bind_param("ssssssssssssss", $name, $email, $tel, $address, $petType, $petBreed, $size, $petName, $color, $desc, $foundDate, $foundTime, $foundLocation, $imageUrlsString);
+
+        if ($stmt->execute()) {
+            $_SESSION['form_submitted'] = true;
+            header("Location: thank-you.php");
+            exit;
+        } else {
+            echo "Error al guardar: " . $stmt->error;
+        }
+
+        $stmt->close();
     } else {
-        echo "Error: " . $sql . "<br>" . mysqli_error($connection);
+        echo "Error en la preparación de la consulta: " . $connection->error;
     }
-
 }
 
-
-// Close the database connection
 mysqli_close($connection);
 ?>

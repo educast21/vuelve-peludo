@@ -28,28 +28,25 @@ accordions.forEach((accordion) => {
     });
 });
 
-
-//Form Select & Options
-// Define options for the second dropdown based on the selected category
- const optionsByCategory = {
-    dog: ["Labrador Retriever","Bulldog", "German Shepherd", "Golden Retriever", "Beagle", "Pomeranian", "Dachshund", "Boxer", "Pug", "Rottweiler", "Shih Tzu"],
-    cat: ["Persian", "Siamese", "Maine Coon", "Ragdoll", "British Shorthair", "Abyssinian", "Bengal", "Burmese", "Scottish Fold", "Sphynx"],
-    rabbit: ["Holland Lop", "Netherland Dwarf", "Mini Rex", "Lionhead", "Mini Lop", "Flemish Giant", "English Angora", "Polish", "Himalayan", "Harlequin"],
-    turtle: ["Red-eared Slider", "Indian Tent Turtle", "Three-striped Roofed Turtle", "Indian Flapshell Turtle", "Indian Softshell Turtle", "Black Pond Turtle", "Indian Spotted Pond Turtle", "Leith's Softshell Turtle", "Indian Peacock Softshell Turtle", "Indian Narrow-headed Softshell Turtle"],
-    cow: ["Jersey Cow", "Holstein Friesian", "Gir Cow", "Sahiwal Cow", "Rathi Cow", "Ongole Cow", "Red Sindhi Cow", "Tharparkar Cow", "Kankrej Cow", "Hariana Cow"],
+// JavaScript for pet type and breed selection
+const optionsByCategory = {
+    dog: ["Labrador Retriever", "Bulldog", "Pastor Alemán", "Golden Retriever", "Beagle", "Pomerania", "Dachshund", "Boxer", "Pug", "Rottweiler", "Shih Tzu"],
+    cat: ["Persa", "Siames", "Maine Coon", "Ragdoll", "British Shorthair", "Abisinio", "Bengalí", "Burmés", "Scottish Fold", "Sphynx"],
+    bird: ["Periquito", "Canario", "Cacatúa", "Agapornis", "Loro", "Guacamaya", "Cenzontle", "Jilguero", "Gorrión", "Colibrí"],
+    rabbit: ["Holland Lop", "Netherland Dwarf", "Mini Rex", "Lionhead", "Mini Lop", "Flemish Giant", "English Angora", "Polish", "Himalaya", "Harlequín"],
+    hamster: ["Sirio", "Ruso", "Chino", "Roborowski", "Campbell", "Albino", "Panda", "Doradito"],
+    cuyo: ["Crestado", "Abyssinian", "Peruano", "Coronet", "Sheltie", "Teddy", "Texel", "Alpaca"],
+    other: ["Pato", "Burro", "Gallo", "Caballo", "Cerdo", "Mapache", "Zorro", "Iguana", "Otro"]
 };
 
-// Function to populate the second dropdown based on the selected category
 function populateSecondSelect() {
     const firstSelect = document.getElementById("pettype");
-    const secondSelect = document.getElementById("petbreed");
+    const secondSelect = document.querySelector('select[name="petBreed"]');
     const selectedCategory = firstSelect.value;
 
-    // Clear the second dropdown
-    secondSelect.innerHTML = '<option value="">Select a Breed *</option>';
+    secondSelect.innerHTML = '<option value="">Seleccione una raza * (Primero elija el tipo)</option>';
 
-    // Populate the second dropdown with options based on the selected category
-    if (selectedCategory in optionsByCategory) {
+    if (selectedCategory && optionsByCategory[selectedCategory]) {
         optionsByCategory[selectedCategory].forEach(option => {
             const optionElement = document.createElement("option");
             optionElement.value = option;
@@ -58,8 +55,6 @@ function populateSecondSelect() {
         });
     }
 }
-
-
 
 
 const photoUpload = document.getElementById("photo-upload");
