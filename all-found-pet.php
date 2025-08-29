@@ -12,7 +12,7 @@
             function loadAllListings() {
                 $.ajax({
                     type: 'GET',
-                    url: 'search.php', // Create a separate PHP file (search.php) for handling the search
+                    url: 'search-found.php', // Create a separate PHP file (search.php) for handling the search
                     success: function(response) {
                         $('#lost-pet .card-container').html(response);
                     }
@@ -33,7 +33,7 @@
                     // Otherwise, perform the search
                     $.ajax({
                         type: 'GET',
-                        url: 'search-lost.php', // Create a separate PHP file (search.php) for handling the search
+                        url: 'search-found.php', // Create a separate PHP file (search.php) for handling the search
                         data: { search: searchQuery },
                         success: function(response) {
                             $('#lost-pet .card-container').html(response);

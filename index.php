@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,14 +13,18 @@
         <?php include 'header.php'; ?>
 
         <div id="hero" class="nav-animate">
+            
+            <img src="./images/hero-bg-1.png" alt="Group of friendly pets including cats, dogs, rabbits, and small animals sitting together and facing forward with happy expressions in a welcoming and cheerful environment" class="pet-image" style="margin-top: 20px;">
+
+            <h1 class="bg-text animate__animated animate__fadeInUp">Pelus</h1>
+
             <h3 class="sub-title animate__animated animate__fadeInUp">Bienvenido a Vuelve Peludo</h3>  
             <h2 class="main-title animate__animated animate__fadeInUp">Tu aliado en la búsqueda de mascotas perdidas</h2> 
             <div class="btn-grp">
                 <a href="./lost-pet.php" class="btn-primary hero-btn-1 animate__animated animate__fadeInUp">Reportar peludo</a>
                 <a href="./found-pet.php" class="btn-primary hero-btn-2 animate__animated animate__fadeInUp">Encontre un peludo</a>
             </div> 
-            <img src="./images/hero-bg.png" alt="pet-image" class="pet-image animate__animated animate__fadeInUp">
-            <h1 class="bg-text animate__animated animate__fadeInUp">Pets</h1>
+
         </div>
 
         <div id="about">
@@ -61,7 +65,7 @@ Aquí, la comunidad se une para que cada peludo regrese a su familia.</p>
                                 <p class="text-justify">"Encontré un perrito perdido cerca de mi casa y no sabía cómo ayudar. Gracias a Vuelve Peludo pude subir su información y su familia lo encontró en cuestión de horas."</p>
                                 <div>
                                     <h3>Javier Torres.</h3>
-                                    <h3>Monterrey, Nuevo León.</h3>
+                                    <h3>Ciudad de México</h3>
                                 <img src="./paw-40.svg" alt="paw-bg" class="testi-bg">
                                     
                                 </div>
